@@ -1,0 +1,378 @@
+/* CSS Reset */
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+html
+            {
+                scroll-behavior: smooth;
+            }
+
+/* CSS Variables */
+:root
+            {
+                --navbar-height: 59px;
+            }
+
+/* Navigation Bar */
+#navbar
+            {
+                display: flex;
+                align-items: center;
+                position: sticky;
+                top: 0px;
+                height: 52px;
+            }
+
+#navbar::before
+            {
+                content: "";
+                background-color: #fc8019;
+                position: absolute;
+                top:0px;
+                left:0px;
+                height: 100%;
+                width:100%;
+                z-index: -1;
+                opacity: 1;
+            }
+
+/* Navigation Bar - Logo and Image */
+#logo
+            {
+                margin: 10px 10px;
+            }
+
+#logo img
+            {
+                height: 55px;
+                margin: 6px;
+            }
+
+
+/* Navigation Bar: List */
+
+#navbar ul
+            {
+                width: 100%;
+                display: flex;
+                font-family: 'Baloo Bhai';
+            }
+
+#navbar ul li
+            { 
+                list-style: none;
+                font-size: 1.3rem;
+            }
+
+#navbar ul li a
+            {
+                color: white;
+                display: block;
+                padding: 2px 2px;
+                margin: 15px;
+                line-height: 80%;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+
+#navbar ul li a:hover
+            {
+                color: black;
+                background-color: white;
+            }
+
+/* Search items Search bar */
+.searchbar
+            {
+
+                width: 11%;
+                border: 1px solid gray;
+                border-radius: 10px;
+                background-color: white;
+                padding: 1px 3px;
+                margin-right: 7%;
+                
+            }
+.searchbtn
+            {
+                position: absolute;
+                margin-left: 0.7%;
+                font-family:  'Bree Serif', serif;
+                cursor: pointer;
+               
+            }
+.searchitems 
+            {
+                border: none;
+                outline: none;
+                border-radius: 10px;
+                width: 100%;
+                font-size: 16px;
+                font-family:  'Bree Serif', serif;
+               
+            }
+
+
+
+
+/* Home Section */
+#home
+            {
+                display: flex;
+                flex-direction: column;
+                padding:3px 200px;
+                height: 550px;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+#home::before
+            { 
+                content: "";
+                position: absolute;
+                background: url('../bgg.jpg') no-repeat center center/cover;
+                height: 630px;
+                top:0px;
+                left:0px;
+                width: 100%;
+                z-index: -1;
+                opacity:0.89;
+            }
+
+#home h1
+            {
+                color: rgb(26, 7, 7);
+                text-align: center;
+                font-family: 'Bree Serif', serif;
+                font-size: 3.8rem;
+                padding: 12px;
+            }
+
+#home p
+            {
+                color: rgb(26, 7, 7);
+                text-align: center;
+                font-size: 1.5rem;
+                margin-bottom: 40px;
+                font-family: 'Bree Serif', serif;
+            }
+
+/*location input section*/
+
+
+#location-section .location-area
+            {
+                width: 94%;
+                padding:20px 10px;
+                display: flex;
+            }
+
+
+#location-section .location
+            {
+                
+                width: 125%;
+                padding: 0;
+                border: 2px solid #bebfc5;
+            }
+
+#location-section .LocationInput
+            {
+                height: 56px;
+                padding-left: 15px;
+                padding-right: 75px;
+                border: none;
+                outline: none;
+                width: 100%;
+                font-size: 17px;
+
+                
+              
+            }
+
+#location-section .locateme
+            {
+               
+                cursor: pointer;
+                text-align: center;
+                color: black;
+                background-color:transparent;
+                font-size: 12px;
+                width: 80px;
+                line-height:15px;
+                margin-top: 4%;
+                border-radius: 20px;
+            }
+
+#location-section .locateme :hover{
+                color:white;
+                background-color: #fc8019;
+                padding: 5px;
+                border-radius: 20px;
+            }
+
+
+
+#location-section .findfood
+            {
+                
+                cursor: pointer;
+                text-align: center;
+                border: none;
+                font-size: 14px;
+                color: #fff;
+                background-color: #fc8019;
+                line-height: 60px;
+                width: 140px;
+            }
+
+
+
+/* Items Section */
+#items
+            {
+            margin: 34px;
+            display: flex;
+            }
+#items .box
+            { 
+                border: 2px solid #fc8019;
+                padding: 1px;
+                margin: 2px 55px;
+                width: 25%;
+                border-radius: 15px;
+                background: transparent;
+                margin-bottom: 20px;
+            }
+
+#items .box img
+            { 
+            height: 120px;
+            width: 120px;
+            margin: auto;
+            display: block;
+            }
+#ExploreFood .box h2 a
+            {
+                color: black;
+                display: block;
+                line-height: 40px;
+                padding: 3px 10px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+#items .box p
+            {
+                font-family: 'Bree Serif', serif;
+
+            } 
+
+ /* Special Items */
+#specials-items
+            {
+                background-color:  rgb(26, 7, 7);
+            }
+
+
+
+#specials
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+.specials-item
+            {
+                padding: 30px;
+                
+            }
+
+#specials img
+            {
+                height: 124px;
+            }
+
+
+
+footer
+            {
+                background:  #fc8019;
+                color: rgb(26, 7, 7);
+                padding: 9px 20px;
+            }
+
+
+.h-primary
+            {
+                font-family: 'Bree Serif', serif;
+                font-size: 3.8rem;
+                padding: 12px;
+            }
+
+.h-head
+            {
+                font-family: 'Bree Serif', serif;
+                font-size: 3.8rem;
+                color: #fc8019;
+                margin-top: 3%;
+                padding: 12px;
+            }
+.h-head2
+            {
+                font-family: 'Bree Serif', serif;
+                font-size: 3.8rem;
+                color: white;
+                padding: 12px;
+            }
+
+.h-secondary
+            {
+                font-family: 'Bree Serif', serif;
+                font-size: 2.3rem;
+                padding: 12px;
+            }
+
+.btn
+            {
+                padding: 6px 20px;
+                border: 2px solid white;
+                background-color: #fc8019;
+                color: white;
+                margin: 17px;
+                font-size: 1.5rem;
+                border-radius: 10px;
+                cursor:pointer;
+            }
+.btn1
+            {
+                padding: 3px 10px;
+                border: 1px solid white;
+                background-color: #fc8019;
+                color: white;
+                margin: 17px;
+                font-family:  'Bree Serif', serif;
+                font-size: 1.2rem;
+                border-radius: 10px;
+                cursor:pointer;
+            }
+.btn2
+            {
+                padding: 4px 4px;
+                border: 1px solid white;
+                background-color: #fc8019;
+                color: white;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                font-family:  'Bree Serif', serif;
+                font-size: 1.2rem;
+                border-radius: 10px;
+                cursor:pointer;
+            }
+
+.center
+            {
+                text-align: center;
+            }
