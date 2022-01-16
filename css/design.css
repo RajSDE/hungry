@@ -376,3 +376,22 @@ footer
             {
                 text-align: center;
             }
+.phone{
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .desktop{
+        display: none;
+    }
+    .phone{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    }
+    p.notice{
+        margin: auto;
+        text-align: center;
+    }
+
+}
