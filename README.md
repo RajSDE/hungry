@@ -31,6 +31,24 @@ HTML & CSS only...
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Chrome](https://www.google.com/chrome/thank-you.html?brand=JJTC&statcb=1&installdataindex=empty&defaultbrowser=0#)
 
+
+## Screenshots
+
+### Top View
+
+![App Screenshot](https://github.com/AyeRaj/hungry/blob/main/img/Screenshot%20(24).png?raw=true)
+-
+
+### Middle View
+
+![App Screenshot](https://github.com/AyeRaj/hungry/blob/main/img/Screenshot%20(25).png?raw=true)
+-
+
+### Bottom View
+
+
+![App Screenshot](https://github.com/AyeRaj/hungry/blob/main/img/Screenshot%20(27).png?raw=true)
+-
 ## Feedback
 
 If you have any feedback, please reach out to us at ayerajkumar@gmail.com
