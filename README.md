@@ -1,18 +1,10 @@
 
-# Video Chat Web Application
+# Food Delivery Website - Frontend
 # Hi, I'm Raj! 👋
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayerajkumar/)
 
-This Project is a video chat web application made for making group videos and text chat with our friends.
-
-
-To RUN this project, Your system must be need Python3
-
-
-## Download Python & Install it
-
-Visit Python Official Website to Download [Python](https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe)
+This Project is all about frontend website development
     
 ## Run Locally
 
@@ -20,31 +12,10 @@ Visit Python Official Website to Download [Python](https://www.python.org/ftp/py
 
 or
 
-You can clone it to your Github Account by executing the code below in your system terminal.
+You can clone it to your Github Account by executing the code below in your system terminal. (Ignore this step, If you have already downloaded)
 ```bash
-  git clone https://github.com/AyeRaj/VideoChatWebApp.git
+  git clone https://github.com/AyeRaj/hungry.git
 ```
-
-2. Go to the project directory & open terminal
-
-Then, run the code given below to Install DJANGO framework in your system.
-
-```bash
-  python -m pip install django
-```
-
-3. Then, Install CHANNELS module
-
-```bash
-  python -m pip install channels
-```
-
-4. Run the Code in Terminal of Parent directory to Start the server
-
-```bash
-  python manage.py run server
-```
-5. Then, click of Local Host Server link to open the project in browser
 
 💬 Ask me, If your project is not running - 
 [Linkedin](https://www.linkedin.com/in/ayerajkumar)
@@ -53,12 +24,12 @@ I'm an Engineering Student & A Full Stack Web Developer
 
 
 ## 🛠 Skills Required for this Project...
-Javascript, HTML, CSS, REACT, Python, Django...
+HTML & CSS only...
 
-## Documentation
-- [Python](https://docs.python.org/3.10/#)
-- [Django](https://docs.djangoproject.com/en/4.0/)
-- [Channels](https://channels.readthedocs.io/en/stable/)
+## Tools Required
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Chrome](https://www.google.com/chrome/thank-you.html?brand=JJTC&statcb=1&installdataindex=empty&defaultbrowser=0#)
 
 ## Feedback
 
