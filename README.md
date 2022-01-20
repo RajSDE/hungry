@@ -10,9 +10,9 @@ This Project is all about frontend website development
 
 1. Download this project
 
-or
+    or
 
-You can clone it to your Github Account by executing the code below in your system terminal. (Ignore this step, If you have already downloaded)
+    You can clone it to your Github Account by executing the code below in your system terminal. (Ignore this step, If you have already downloaded)
 ```bash
   git clone https://github.com/AyeRaj/hungry.git
 ```
